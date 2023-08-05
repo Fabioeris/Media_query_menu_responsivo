@@ -1,5 +1,44 @@
 @charset "UTF-8" ;
 
+
+
 body, html{
+    margin: 0px;
+    padding: 0px;
     background-color: rgb(11, 211, 218);
+}
+
+menu{
+    margin: 0px;
+    padding: 0px;
+    display: none;
+}
+
+span#menu{
+    background-color: blue;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+
+span#menu:hover{
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+li{
+    display: inline-block;
+    margin: 5px;
+    padding: 15px;
+    color: white;
+    background-color: rgb(30, 133, 202);
+    border-radius: 4px;
 }
